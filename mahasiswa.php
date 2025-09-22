@@ -59,6 +59,6 @@ class Mahasiswa {
         echo "NIM: " . $this->nim . "<br>";
         echo "Jurusan: " . $this->jurusan . "<br>";
         echo "Email: " . $this->email . "<br>";
-        echo "<img src='" . $this->foto . "' alt='Foto Mahasiswa' width='100'><br>";
+        echo "<img src='img/" . $this->foto . "' alt='Foto Mahasiswa' width='100'><br>";
     }
 }
